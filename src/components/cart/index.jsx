@@ -58,7 +58,7 @@ const Cart = ({ id, price, old_price, title, text, skit, img }) => {
         <button
           onClick={() => addCart(id, img, text, title, price, old_price, skit)}
         >
-          Add to cart
+          Add to card
         </button>
         <div className="hover">
           <img src={share} alt="" />

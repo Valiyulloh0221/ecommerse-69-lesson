@@ -2,9 +2,12 @@ import "./index.scss";
 import img from "../../assets/gr-57.png";
 import img1 from "../../assets/ci_grid-big-round.png";
 import img2 from "../../assets/bi_view-list.png";
+import Cart from "../cart";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Footercomp from "../footercomp";
+import { NavLink } from 'react-router-dom';
+import Home from './../../pages/Home/index';
 
 const ShopComp = () => {
   const [data, setData] = useState([]);
@@ -20,7 +23,9 @@ const ShopComp = () => {
     fetchData();
   }, []);
 
-
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentItems = data.slice(indexOfFirstItem, indexOfLastItem);
 
   const paginate = (pageNumber) => {
     setCurrentPage(pageNumber);
@@ -84,7 +89,15 @@ const ShopComp = () => {
           </div>
         </div>
       </div>
-
+      <div className="products" style={{ paddingBottom: "0" }}>
+        <div className="container">
+          <div className="products_w">
+            {currentItems?.map((el, i) => (
+              <Cart key={i} {...el} />
+            ))}
+          </div>
+        </div>
+      </div>
       <div className="page">
         <nav aria-label="Page navigation example">
           <ul className="pagination">

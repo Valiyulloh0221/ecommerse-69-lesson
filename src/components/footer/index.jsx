@@ -21,9 +21,11 @@ const Footer = () => {
             </div>
             <div className="footer_three">
               <p className="h">Help</p>
-              <p>Payment Options</p>
-              <p>Returns</p>
-              <p>Privacy Policies</p>
+              <div className="three-linklar">
+                <a>Payment Options</a>
+                <a>Returns</a>
+                <a>Privacy Policies</a>
+              </div>
             </div>
             <div className="footer_four">
               <p>Newsletter</p>

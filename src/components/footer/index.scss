@@ -21,9 +21,14 @@ footer {
       }
       a {
         display: block;
-        color: black;
+        color: #000000;
         font-family: Poppins;
         padding-top: 10px;
+        transition: 0.4s;
+        &:hover {
+          color: red;
+          text-decoration: underline;
+        }
       }
     }
     .footer_three {
@@ -32,6 +37,22 @@ footer {
         opacity: 0.8;
         padding-top: 0;
         padding-bottom: 50px;
+      }
+      .three-linklar{
+        display: flex;
+        flex-direction: column;
+        a {
+          cursor: pointer;
+          display: block;
+          color: #000000;
+          font-family: Poppins;
+          padding-top: 10px;
+          transition: 0.4s;
+          &:hover {
+            color: red;
+            text-decoration: underline;
+          }
+        }
       }
       p {
         padding-top: 10px;

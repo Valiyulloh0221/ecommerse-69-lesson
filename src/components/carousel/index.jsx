@@ -8,7 +8,7 @@ const Carousel = () => {
     dots: true,
     infinite: true,
     speed: 400,
-    slidesToShow: 2.1,
+    slidesToShow: 2,
     slidesToScroll: 1,
   };
   return (
