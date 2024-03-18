@@ -99,7 +99,7 @@ header {
         transition: 0.3s;
         position: fixed;
         width: 100%;
-        background-color: rgb(183, 158, 95);
+        background-color: rgb(143, 136, 118);
         z-index: 20;
         left: -100%;
         top: 0;
@@ -112,13 +112,6 @@ header {
           justify-content: center;
           width: 100%;
           padding: 10px 25px;
-          border-radius: 10px;
-          border: 1px solid black;
-          &:hover {
-            background-color: #fff;
-            border: none;
-            color: black;
-          }
         }
         .x {
           display: block;
