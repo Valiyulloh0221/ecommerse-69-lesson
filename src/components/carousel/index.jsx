@@ -1,7 +1,7 @@
 import "./index.scss";
-import img from "../../assets/Rectangle 24.png";
-import img1 from "../../assets/Rectangle 25.png";
-import img2 from "../../assets/Rectangle 41.png";
+import img from "../../assets/r-24.png";
+import img1 from "../../assets/r-25.png";
+import img2 from "../../assets/r-41.png";
 import Slider from "react-slick";
 const Carousel = () => {
   var settings = {

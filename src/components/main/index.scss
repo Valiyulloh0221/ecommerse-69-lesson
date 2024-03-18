@@ -46,11 +46,11 @@ main {
         outline: none;
         font-family: Poppins;
         font-size: 18px;
-        color: white;
+        color: #FFF;
         cursor: pointer;
         background-color: rgba(184, 142, 47, 1);
         &:hover {
-          box-shadow: 0px 0px 3px 3px grey;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
           transition: 0.3s;
         }
       }

@@ -13,7 +13,7 @@ const Main = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br />{" "}
               elit tellus, luctus nec ullamcorper mattis.
             </p>
-            <button className="buy">BUY Now</button>
+            <button className="buy">BUY NOW</button>
           </div>
         </div>
       </main>

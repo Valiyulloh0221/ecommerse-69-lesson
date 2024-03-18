@@ -10,6 +10,7 @@
     font-size: 35px;
   }
   .text {
+    cursor: pointer;
     text-align: center;
     display: flex;
     align-items: center;
@@ -79,6 +80,12 @@
       margin-left: 10px;
     }
   }
+}
+
+.pagination{
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 @media screen and (max-width: 1215px) {

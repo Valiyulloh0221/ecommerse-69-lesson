@@ -24,6 +24,10 @@
   display: block;
   margin: 0 auto;
   cursor: pointer;
+  &:hover{
+    background-color: rgba(184, 142, 47, 1);
+    color: #FFF;
+  }
 }
 
 @media screen and (max-width: 949px) {

@@ -5,7 +5,7 @@ import img3 from "../../assets/Rectangle 37.png";
 import img4 from "../../assets/Rectangle 39.png";
 import img5 from "../../assets/Rectangle 40.png";
 import img6 from "../../assets/Rectangle 43.png";
-import img7 from "../../assets/Rectangle 41.png";
+import img7 from "../../assets/r-41.png";
 import img8 from "../../assets/Rectangle 45.png";
 import img9 from "../../assets/Rectangle 44.png";
 

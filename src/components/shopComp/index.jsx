@@ -6,6 +6,8 @@ import Cart from "../cart";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Footercomp from "../footercomp";
+import { NavLink } from 'react-router-dom';
+import Home from './../../pages/Home/index';
 
 const ShopComp = () => {
   const [data, setData] = useState([]);
@@ -27,16 +29,11 @@ const ShopComp = () => {
 
   const paginate = (pageNumber) => {
     setCurrentPage(pageNumber);
-
-    // Sahifani localStorage ga saqlash
     localStorage.setItem("currentPage", JSON.stringify(pageNumber));
   };
 
   useEffect(() => {
-    // localStorage dan currentPage qiymatini olish
     const savedPage = JSON.parse(localStorage.getItem("currentPage"));
-
-    // Agar saqlangan qiymat mavjud bo'lsa uni o'rnating
     if (savedPage) {
       setCurrentPage(savedPage);
     }
@@ -111,7 +108,7 @@ const ShopComp = () => {
               disabled={currentPage <= 1}
               onClick={() => paginate(currentPage - 1)}
             >
-              Prev
+              Previous
             </button>
 
             {Array.from(
