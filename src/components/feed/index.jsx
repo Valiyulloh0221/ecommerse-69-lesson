@@ -1,7 +1,7 @@
 import "./index.scss";
-import img from "../../assets/image 106.png";
-import img1 from "../../assets/image 100.png";
-import img2 from "../../assets/image 101.png";
+import img from "../../assets/dining.png";
+import img1 from "../../assets/living.png";
+import img2 from "../../assets/bedroom.png";
 
 const Browse = () => {
   return (

@@ -1,5 +1,5 @@
 import "./index.scss";
-import img from "../../assets/trophy 1.png";
+import img from "../../assets/trophy1.png";
 import img1 from "../../assets/guarantee.png";
 import img3 from "../../assets/shipping.png";
 import img4 from "../../assets/customer-support.png";

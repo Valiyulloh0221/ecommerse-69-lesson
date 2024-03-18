@@ -1,5 +1,5 @@
 import "./index.scss";
-import header from "../../assets/Frame 168.png";
+import header from "../../assets/f-168.png";
 import user from "../../assets/mdi_account-alert-outline.png";
 import search from "../../assets/akar-icons_search.png";
 import like from "../../assets/akar-icons_heart.png";

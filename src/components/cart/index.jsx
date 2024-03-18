@@ -1,6 +1,6 @@
 import "./index.scss";
-import share from "../../assets/Frame 11.png";
-import comp from "../../assets/Frame 12.png";
+import share from "../../assets/f11.png";
+import comp from "../../assets/f12.png";
 import likePng from "../../assets/Like.png";
 import Like, { LikeL } from "../../constants";
 import { useEffect, useState } from "react";

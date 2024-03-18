@@ -6,7 +6,7 @@ import Furniture from "./furniture";
 import Products from "./products";
 import Footercomp from "./footercomp";
 import Carousel from "./carousel";
-import Browse from "./browse";
+import Browse from "./feed";
 import ShopComp from "./shopComp";
 
 export {

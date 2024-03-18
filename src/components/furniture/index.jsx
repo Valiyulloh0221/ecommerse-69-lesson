@@ -1,13 +1,13 @@
 import "./index.scss";
-import img1 from "../../assets/Rectangle 36.png";
-import img2 from "../../assets/Rectangle 38.png";
-import img3 from "../../assets/Rectangle 37.png";
-import img4 from "../../assets/Rectangle 39.png";
-import img5 from "../../assets/Rectangle 40.png";
-import img6 from "../../assets/Rectangle 43.png";
+import img1 from "../../assets/r-36.png";
+import img2 from "../../assets/r-38.png";
+import img3 from "../../assets/r-37.png";
+import img4 from "../../assets/r-39.png";
+import img5 from "../../assets/r-40.png";
+import img6 from "../../assets/r-43.png";
 import img7 from "../../assets/r-41.png";
-import img8 from "../../assets/Rectangle 45.png";
-import img9 from "../../assets/Rectangle 44.png";
+import img8 from "../../assets/r-45.png";
+import img9 from "../../assets/r-44.png";
 
 const Furniture = () => {
   return (
