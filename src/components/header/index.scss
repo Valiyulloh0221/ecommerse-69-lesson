@@ -12,6 +12,7 @@ header {
     justify-content: space-between;
     .header_one {
       width: auto;
+      cursor: pointer;
     }
     .heeader_two {
       width: 40%;
@@ -38,7 +39,8 @@ header {
         }
       }
       a:hover {
-        color: rgba(140, 138, 138, 0.662);
+        color: red;
+        text-decoration: underline;
       }
     }
     .header_three {

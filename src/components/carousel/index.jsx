@@ -1,7 +1,7 @@
 import "./index.scss";
-import img from "../../assets/r-24.png";
-import img1 from "../../assets/r-25.png";
-import img2 from "../../assets/r-41.png";
+import emg from "../../assets/r-24.png";
+import emg1 from "../../assets/r-25.png";
+import emg2 from "../../assets/r-41.png";
 import Slider from "react-slick";
 const Carousel = () => {
   var settings = {
@@ -29,13 +29,13 @@ const Carousel = () => {
             <div className="carausel_right">
               <Slider {...settings}>
                 <div className="carusel_item">
-                  <img src={img} alt="" />
+                  <img src={emg} alt="" />
                 </div>
                 <div className="carusel_item">
-                  <img src={img1} alt="" />
+                  <img src={emg1} alt="" />
                 </div>
                 <div className="carusel_item">
-                  <img src={img2} alt="" />
+                  <img src={emg2} alt="" />
                 </div>
               </Slider>
             </div>

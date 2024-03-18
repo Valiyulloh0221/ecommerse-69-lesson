@@ -33,6 +33,10 @@
         outline: none;
         cursor: pointer;
         margin-top: 20px;
+        &:hover{
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          transition: 0.4s;
+        }
       }
     }
     .carausel_right {

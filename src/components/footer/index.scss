@@ -51,14 +51,19 @@ footer {
           border: none;
           font-family: Poppins;
           outline: none;
-          border-bottom: 2px solid rgba(0, 0, 0, 0.511);
+          &:focus{
+            border-bottom: 2px solid rgba(0, 0, 0, 0.511);
+          }
         }
         button {
+          transition: 0.4s;
           border: none;
           margin-left: 10px;
-          border-bottom: 2px solid rgba(0, 0, 0, 0.511);
           background-color: white;
           cursor: pointer;
+          &:hover{
+            border-bottom: 1.5px solid rgba(0, 0, 0, 0.511);
+          }
         }
       }
     }

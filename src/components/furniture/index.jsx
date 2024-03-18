@@ -15,7 +15,7 @@ const Furniture = () => {
       <section>
         <div className="furniture">
           <p>Share your setup with</p>
-          <h2>#FuniroFurniture</h2>
+          <h2>#FurniroFurniture</h2>
           <div className="imgs_w">
             <div className="imgs_left">
               <img src={img1} alt="" />
