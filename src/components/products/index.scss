@@ -24,10 +24,6 @@
   display: block;
   margin: 0 auto;
   cursor: pointer;
-  &:hover{
-    background-color: rgba(184, 142, 47, 1);
-    color: #FFF;
-  }
 }
 
 @media screen and (max-width: 949px) {
@@ -55,5 +51,22 @@
       width: 100%;
       display: flex;
     }
+  }
+}
+.product_btn {
+  width: 245px;
+  height: 48px;
+  outline: none;
+  border: 2px solid rgba(184, 142, 47, 1);
+  background-color: white;
+  color: rgba(184, 142, 47, 1);
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  &:hover{
+    background-color: rgba(184, 142, 47, 1);
+    color: #FFF;
   }
 }
